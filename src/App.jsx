@@ -1,23 +1,17 @@
-import { Button } from './components/Button'
-import { SectionBody } from './components/SectionBody'
-import './App.css'
+import { Button } from "./components/Button";
+import { SectionBody } from "./components/SectionBody";
+import { Header } from "./components/Header";
+import "./App.css";
 
 function App() {
-  
-
   return (
-    <main className="bg-PrincipalColor min-h-screen">
-    <Button />
+    <main className="bg-PrincipalColor min-h-screen px-4 py-6 ">
+      <Header className="bg-slate-500" />
+      <Button />
 
-      <h1 className='bg-red-500'>Hola</h1>
-      
-      <p>Hola  A TODOS , SOY EL MEJOR</p>
-      <p>Hola  A TODOS , SOY EL MEJOR</p>
-      <p>Hola  A TODOS , SOY EL MEJOR</p>
       <SectionBody />
     </main>
-    
-  )
+  );
 }
 
-export default App
+export default App;
