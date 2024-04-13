@@ -3,9 +3,7 @@ export function Button(){
 
 
     <>
-    <h1>HOLA A TODOS</h1>
-    <h1>HOLA A TODOS</h1>
-    <h1>HOLA A TODOS</h1>
+    
 
     </>
 
