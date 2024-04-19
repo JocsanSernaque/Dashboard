@@ -6,11 +6,14 @@ import User from "../assets/images/user.jpg";
 
 export function Header() {
   return (
-    <header className="flex place-content-between  items-center h-20">
+    <header className="flex place-content-between items-center h-24">
+
       <div>
         <img src={Menu} />
       </div>
+
       <div className="flex w-[160px] place-content-around items-center gap-1">
+
         <div className="flex place-content-center items-center w-10 h-10 rounded-lg border border-slate-200 ">
           <img src={Moon} className="w-6 h-6 " />
         </div>
@@ -20,6 +23,7 @@ export function Header() {
         <div className="flex place-content-center items-center w-10 h-10 rounded-lg border border-slate-200">
           <img src={Bell} className="w-6 h-6 " />
         </div>
+        
         <img src={User} className="w-10 h-10 rounded-lg  " />
       </div>
     </header>
